@@ -29,13 +29,10 @@ body{
   }
 
 body{
-    margin: 2em;
-  }
-body, input[type="text"], button{
-  color: #333;
-  font-family: Cambria, Georgia, serif;
+    margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #f3f3f3;
 
-}
+  }
 
 button{
   background-color: #eee;
