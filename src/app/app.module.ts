@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
@@ -11,6 +10,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { MessagesComponent } from './messages/messages.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatIconModule} from '@angular/material/icon';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatTooltipModule} from '@angular/material/tooltip';
+
 
 
 @NgModule({
@@ -26,9 +29,13 @@ import {MatExpansionModule} from '@angular/material/expansion';
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
     MatButtonModule,
     MatExpansionModule,
-    MatToolbarModule
+    MatIconModule,
+    MatToolbarModule,
+    MatTooltipModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
