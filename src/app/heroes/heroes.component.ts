@@ -10,7 +10,7 @@ import {Hero} from '../hero.model'
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit  {
-
+  displayedColumns: string[] = ['id', 'name'];
   heroes: Hero[] = [];
 
 
