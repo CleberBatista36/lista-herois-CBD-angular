@@ -6,10 +6,6 @@
   width: 15em;
 }
 
-.heroes li {
-  display: flex;
-}
-
 .heroes button {
   flex: 1;
   cursor: pointer;
